@@ -1,0 +1,33 @@
+.login-div {
+  width: 300px;
+  font-family: cursive;
+  color: rgb(250, 218, 250);
+  margin: 1rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 200px;
+  margin: auto;
+  justify-content: space-between;
+  background-color: rgb(83, 13, 83);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+form input {
+  height: 1.5rem;
+  box-shadow: 0 0 4px 1px rgb(250, 218, 250);
+  border: none;
+}
+
+form input[type="submit"] {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 4px;
+  height: 1.5rem;
+  border: none;
+  font-size: 1.2rem;
+}
