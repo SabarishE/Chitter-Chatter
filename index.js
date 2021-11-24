@@ -10,8 +10,8 @@ const app=express();
 const server =http.createServer(app);
 const io=socketio(server,{cors:{origin:"*"}});
 
-
-server.listen(5000,()=>console.log("server is 🚀 on port 5000"))
+const port=process.env.PORT || 5000
+server.listen(port,()=>console.log("server is 🚀 on port 5000"))
 
 app.get("/",(req,res)=>{
     res.send("test API for chat app")
